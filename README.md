@@ -1,2 +1,2 @@
-# devops-go-secure-app
-This is a repository for a DevOps project - Secure GoLang Application
+# DevOps - Secure GoLang Application
+In this comprehensive DevOps project, we build a secure GoLang application that connects to a PostgreSQL database, instrument it using Prometheus, and visualize custom metrics on Grafana. The application is first containerized using KO then run it locally using Docker. We then set up a Kubernetes cluster using ksctl, deploy the application with HTTPS enabled via Cert Manager and Gateway API, and implement Continuous Deployment (CD) with ArgoCD and Continuous Integration (CI) using GitHub Actions. The PostgreSQL database is managed with CloudNativePG, ensuring optimal performance and reliability. Additionally, we demonstrate a secure build process using BuildSafe and KO to generate a 0 CVE image for the application. To ensure the app's robustness, we conduct load testing using K6. 
